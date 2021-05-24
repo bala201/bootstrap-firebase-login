@@ -28,7 +28,7 @@ class Home extends Component {
 
 
 
-               <Navbar bg="danger" variant="dark" sticky="top" expand="sm" collapseOnSelect>
+               <Navbar bg="dark" variant="dark" sticky="top" expand="xl" collapseOnSelect>
       
         <Navbar.Brand >
           <img src={logo} width="40px" height="40px" />{'      '}
@@ -51,18 +51,20 @@ class Home extends Component {
         <Nav.Link href="#products">About Us</Nav.Link>
         <Nav.Link href="#products">Contact Us</Nav.Link>
         </Nav>
+
+
+
+        
+
         </Navbar.Collapse>
 
 
-
         <div>
-        <button class="btn btn-success" onClick={this.logout}>Logout</button>{' '}
+        <button class="btn btn-danger"  onClick={this.logout}>Logout</button>{' '}
 
         </div>
-        <button class="btn btn-success" onClick={this.logout}>Logout</button>{' '}
-        <button class="btn btn-success" onClick={this.logout}>Logout</button>{' '}
-        <button class="btn btn-success" onClick={this.logout}>Logout</button>{' '}
-
+        
+       
       
       </Navbar>
 
@@ -74,7 +76,11 @@ class Home extends Component {
 
 
 
-
+                <div class="lg">
+                
+                You are logged in...
+                
+                </div>
 
 
 
@@ -86,26 +92,7 @@ class Home extends Component {
 
       
      
-      <div className="content">
-      Hi
-      </div>
-      <div>
-      <img src="https://nettv4u.com/imagine/31-01-2019/pavithra.jpg" alt="..." class="rounded-bottom"></img>
-      </div>
-
-      <div className="content">
-      Hi
-      </div>
-      <div>
-      <img src="https://wallpapercave.com/wp/wp2596622.jpg" alt="..." class="rounded-bottom"></img>
-      </div>
-
-      <div className="content">
-      Hi
-      </div>
-      <div>
-      <img src="https://cdn.icowboysradio.com/cuckooradio/uploads/2021/02/5-min-8.jpg" alt="..." class="rounded-bottom"></img>
-      </div>
+      
 
             </div>
         );
