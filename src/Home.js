@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import fire from "./fire"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import{Button} from 'react-bootstrap'
-//import ReactPlayer from 'react-player'
 import {Navbar,Nav,NavDropdown} from 'react-bootstrap'
 import logo from './logo.svg';
 
@@ -20,15 +19,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-              
-
-
-
-
-
-
-
-               <Navbar bg="dark" variant="dark" sticky="top" expand="xl" collapseOnSelect>
+        <Navbar bg="dark" variant="dark" sticky="top" expand="xl" collapseOnSelect>
       
         <Navbar.Brand >
           <img src={logo} width="40px" height="40px" />{'      '}
@@ -51,50 +42,15 @@ class Home extends Component {
         <Nav.Link href="#products">About Us</Nav.Link>
         <Nav.Link href="#products">Contact Us</Nav.Link>
         </Nav>
-
-
-
-        
-
-        </Navbar.Collapse>
-
-
+ </Navbar.Collapse>
         <div>
         <button class="btn btn-danger"  onClick={this.logout}>Logout</button>{' '}
-
-        </div>
-        
-       
-      
-      </Navbar>
-
-
-
-
-
-
-
-
-
+    </div>
+          </Navbar>
                 <div class="lg">
-                
-                You are logged in...
-                
+                                You are logged in...
                 </div>
-
-
-
-
-
-
-
-
-
-      
-     
-      
-
-            </div>
+</div>
         );
     }
 }
